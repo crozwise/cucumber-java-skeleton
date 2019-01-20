@@ -8,7 +8,7 @@ public class Belly {
 
     }
     public void growl() {
-        String result = "growl function is running"
+        String result = "growl function is running";
         System.out.println(result);
         return result;
     }
