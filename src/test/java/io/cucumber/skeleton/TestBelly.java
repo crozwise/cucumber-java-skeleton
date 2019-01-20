@@ -17,6 +17,11 @@ public class TestBelly {
    // test to check yearly salary
    @Test
    public void growl() {
+
+     String result = belly.growl();
+
+     assertEquals("growl function is running", result);
+
       
     //  assertEquals(96000, salary, 0.0);
    }
