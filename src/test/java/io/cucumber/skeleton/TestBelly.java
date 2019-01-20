@@ -9,7 +9,7 @@ public class TestBelly {
    //test to check appraisal
    @Test
    public void eat(int cukes) {
-      belly.eat(12);
+      belly.eat();
       		
     //  assertEquals(500, appraisal, 0.0);
    }
@@ -17,7 +17,7 @@ public class TestBelly {
    // test to check yearly salary
    @Test
    public void wait(int cukes) {
-      belly.wait(12);
+      belly.wait();
     //  assertEquals(96000, salary, 0.0);
    }
 }
