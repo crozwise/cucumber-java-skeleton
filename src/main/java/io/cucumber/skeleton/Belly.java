@@ -7,7 +7,7 @@ public class Belly {
     public void wait(int cukes) {
 
     }
-    public void growl() {
+    public String growl() {
         String result = "growl function is running";
         System.out.println(result);
         return result;
