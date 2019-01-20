@@ -25,6 +25,7 @@ public class TestBelly {
       
     //  assertEquals(96000, salary, 0.0);
    }
+   @Test
    public void dummy() {
 
      String result = belly.dummy();
