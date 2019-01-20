@@ -6,15 +6,6 @@ public class TestBelly {
    Belly belly = new Belly();
    
 
-   //test to check appraisal
-//   @Test
-//   public void eat(int cukes) {
-      
-      		
-    //  assertEquals(500, appraisal, 0.0);
-//   }
-
-   // test to check yearly salary
    @Test
    public void growl() {
 
@@ -23,7 +14,7 @@ public class TestBelly {
      assertEquals("growl function is running", result);
 
       
-    //  assertEquals(96000, salary, 0.0);
+    
    }
    @Test
    public void dummy() {
@@ -32,7 +23,5 @@ public class TestBelly {
 
      assertEquals("dummy function is running", result);
 
-      
-    //  assertEquals(96000, salary, 0.0);
    }
 }
