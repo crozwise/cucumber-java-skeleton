@@ -8,7 +8,7 @@ public class Stepdefs {
         Belly belly = new Belly();
         belly.eat(cukes);
     }
-    @When("I wait {int} hour")
+    @When("^I wait (\\d+) hour$")
     public void i_wait_hour(Integer int1) {
     // Write code here that turns the phrase above into concrete actions
     Belly belly = new Belly();
@@ -16,7 +16,7 @@ public class Stepdefs {
     throw new cucumber.api.PendingException();
 }
 
-    @Then("my belly should growl")
+    @Then("^my belly should growl$")
     public void my_belly_should_growl() {
         Belly belly = new Belly();
         belly.growl();
