@@ -12,4 +12,9 @@ public class Belly {
         System.out.println(result);
         return result;
     }
+    public String dummy() {
+        String result = "dummy function is running";
+        System.out.println(result);
+        return result;
+    }
 }
