@@ -14,7 +14,6 @@ public class Belly {
     }
     public String dummy() {
         String result = "dummy function is running";
-        System.out.println(result);
         return result;
     }
 }
