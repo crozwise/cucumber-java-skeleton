@@ -25,4 +25,11 @@ public class Stepdefs {
     // Write code here that turns the phrase above into concrete actions
     //throw new cucumber.api.PendingException();
 }
+    @Then("^dummy should run$")
+    public void dummy_should_run() {
+        Belly belly = new Belly();
+        belly.dummy();
+    // Write code here that turns the phrase above into concrete actions
+    //throw new cucumber.api.PendingException();
+}
 }
