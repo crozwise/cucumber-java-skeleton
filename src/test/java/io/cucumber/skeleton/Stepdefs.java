@@ -13,7 +13,7 @@ public class Stepdefs {
     // Write code here that turns the phrase above into concrete actions
     Belly belly = new Belly();
         belly.wait(int1);
-    throw new cucumber.api.PendingException();
+    //throw new cucumber.api.PendingException();
 }
 
     @Then("^my belly should growl$")
@@ -21,6 +21,6 @@ public class Stepdefs {
         Belly belly = new Belly();
         belly.growl();
     // Write code here that turns the phrase above into concrete actions
-    throw new cucumber.api.PendingException();
+    //throw new cucumber.api.PendingException();
 }
 }
