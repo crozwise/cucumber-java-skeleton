@@ -16,12 +16,12 @@ public class TestBelly {
       
     
    }
-   @Test
-   public void dummy() {
+  // @Test
+  // public void dummy() {
 
-     String result = belly.dummy();
+  //   String result = belly.dummy();
 
-     assertEquals("dummy function is running", result);
+  //   assertEquals("dummy function is running", result);
 
-   }
+  // }
 }
