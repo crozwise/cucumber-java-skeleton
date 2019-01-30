@@ -2,10 +2,12 @@ package io.cucumber.skeleton;
 
 public class Belly {
     public void eat(int cukes) {
-
+        String result = "eat function is running";
+        System.out.println(cukes);
     }
     public void wait(int cukes) {
-
+        String result = "wait function is running";
+        System.out.println(cukes);
     }
     public String growl() {
         String result = "growl function is running";
